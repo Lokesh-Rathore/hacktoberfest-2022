@@ -38,8 +38,6 @@ As long as its been coded by yourself and is not breaking any other contribution
 
 ## 🙌 We hope you enjoy the challenge 🙌
 
-If you'd like to join us on our future projects, make sure to visit our website [Junior Developer Group](https://junior-developer-group.com/) for more info or simply meet us on Discord
+If you'd like to join us on our future projects, make sure to visit our website [Junior Developer Group](https://junior-developer-group.com/) for more info or simply meet us on [Discord](https://discord.gg/yE4HNmf9Ss)
 <br> 
 <br> 
-
-<iframe src="https://discord.com/widget?id=787411703901978684&theme=dark" width="550" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
