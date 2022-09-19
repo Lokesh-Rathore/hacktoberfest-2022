@@ -1,4 +1,4 @@
-# 👇 Junior Developer Group: 2022 Hacktoberfest challenge  👇
+## 👇 Junior Developer Group: 2022 Hacktoberfest challenge  👇
 <br> 
 <br> 
 
