@@ -2,6 +2,7 @@
 <br> 
 <br> 
 
+
 ## ✨  About this year's challenge: ✨
 
 This year's theme will be CSS Art and we're hoping to see many great submissions and creative solutions. <br>
@@ -34,10 +35,17 @@ As long as its been coded by yourself and is not breaking any other contribution
 - Then start writing your code inside of your branch (not inside of 'main')
 - When you're happy with it, you need to send a commit and leave a commit message for clarity
 - Lastly, you need to create a Pull Request, tag yourself as an 'assignee' and wait for it to be merged if it passes Team's review
-
+<br> 
+<br> 
+<br> 
 
 ## 🙌 We hope you enjoy the challenge 🙌
 
-If you'd like to join us on our future projects, make sure to visit our website [Junior Developer Group](https://junior-developer-group.com/) for more info or simply meet us on [Discord](https://discord.gg/yE4HNmf9Ss)
+If you'd like to join us on our future projects, make sure to visit our [website](https://junior-developer-group.com/) for more info,
+or simply meet us on [Discord](https://discord.gg/yE4HNmf9Ss) 
 <br> 
 <br> 
+
+<img src="https://junior-developer-group.com/assets/images/website-images/logo-with-background.png" width="20%" ></img>  <br> 
+Good luck! 🤓 <br> 
+[Junior Developer Group](https://junior-developer-group.com/)
