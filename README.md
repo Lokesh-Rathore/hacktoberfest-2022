@@ -18,7 +18,7 @@ As long as its been coded by yourself and is not breaking any other contribution
 
 1. You're not allowed to copy/paste other submissions and pass them as yours.
 2. You're not allowed to override existing CSS classes / other contributor's work.
-3. You're not allowed to import additionsl libraries and frameworks.
+3. You're not allowed to import additional libraries and frameworks.
 
 ## 🎯 Content Rules | Permitted
 1. You are allowed to post personal links to your portfolios, projects or social media.
