@@ -299,23 +299,23 @@
     top: 50px;
     right: -40px;
     color: grey;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: cursive;
   }
 
   .likii-text p {
     text-align: right;
-    font-size: 14px;
+    font-size: 0.875rem;
     padding: 0;
   }
 
   .likii-text small::before {
     content: open-quote;
-    font-size: 30px;
+    font-size: 1.875rem;
   }
   .likii-text small::after {
     content: close-quote;
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 
 
