@@ -1,0 +1,186 @@
+.jonnie {
+    border: 2px solid #49120b;
+    background-color: #a9ccd2;
+}
+
+.canva {
+    width: 100%;
+    height: 90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canva .fish {
+    position: relative;
+    animation: movement 2s ease-in-out infinite;
+}
+.canva .body .eye, .fin-1, .fin-2, .fin-3, .fin-4 {
+    position: absolute;
+}
+.canva .body .fin-1, .fin-2, .fin-3, .fin-4, .tail {
+    border-color: transparent transparent transparent #49120b;
+    border-style: solid;
+    height: 0px;
+    width: 0px;
+    opacity: .8;
+}
+.canva .body {
+    background-color: #fbe5b0;
+    background-image: linear-gradient(to bottom right, #a9ccd2, #8f6b99);
+    border: 5px #8f6b99 solid;
+    border-radius: 10px 150px;
+    width: 150px;
+    height: 120px;
+    transform: rotate(-35deg);
+    position: relative; 
+}
+
+.canva .body::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 15px;
+    background-color: #49120b;
+    border-radius: 10px;
+    left: -2px;
+    top: -3px;
+}
+
+.canva .body .fin-1 {
+    border-width: 0px 0px 75px 40px;
+    transform: rotate(100deg);
+    top: 4px;
+    left: 80px; 
+}
+.canva .body .fin-2 {
+  border-width: 0px 0px 30px 40px;
+  transform: rotate(120deg);
+  top: 70px;
+  left: 5px;
+}
+.canva .body .fin-3 {
+    border-width: 0px 0px 30px 40px;
+    transform: rotate(120deg);
+    top: 100px;
+    left: 50px;
+}
+
+.canva .body .eye {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 20px;
+    border: 4px #824630 solid;
+    left: 10px;
+    top: 8px;
+}
+
+.canva .body .eye::before {
+    content: "";
+    position: absolute;
+
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.canva .body .tail {
+    position: relative;
+    border-width: 0px 0px 40px 40px;
+    left: 140px;
+    top: 102px;
+    transform: rotate(-10deg);
+    border-color: transparent transparent transparent #49120b;
+    opacity: 1;
+}
+
+.canva .b-1 {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #f1f5f6;
+    
+    border-radius: 50%;
+    position: relative;
+    left: -45px;
+    top: -90px;
+    animation: bubble2 4s ease-in infinite;
+}
+
+.canva .b-2 {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f1f5f6;
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+    top: 10px;
+    animation: bubble1 8s ease-in infinite;
+}
+
+@keyframes movement {
+    0% { transform: translateX(0px); }
+    50% { transform: translateX(15px); }
+    100% { transform: translateX(0px); }
+}
+
+@keyframes bubble1 {
+    50% { width: 30px;
+        height: 30px; }
+
+    100% { width: 20px;
+        height: 20px; }
+}
+
+@keyframes bubble2 {
+    50% { width: 20px;
+        height: 20px; }
+
+    100% { width: 10px;
+        height: 10px; }
+}
+
+.attribute {
+    text-align: right;
+    margin: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: #1c0808;
+}
+
+@media screen and (max-width:400px) {
+    .canva .fish {
+        animation: none;
+    }
+    .canva .body {
+        width: 100px;
+        height: 80px;
+    }
+    
+    .canva .body .fin-1 {
+        border-width: 0px 0px 60px 25px;
+        top: -8px;
+        left: 56px; 
+    }
+    .canva .body .fin-2 {
+    border-width: 0px 0px 15px 20px;
+    top: 52px;
+    left: 5px;
+    }
+    .canva .body .fin-3 {
+        border-width: 0px 0px 20px 25px;
+        top: 69px;
+        left: 32px;
+    }
+    .canva .body .tail {
+        border-width: 0px 0px 30px 30px;
+        left: 96px;
+        top: 70px;
+    }
+
+    .canva .b-1, .canva .b-2 {
+        display: none;
+    }
+}
