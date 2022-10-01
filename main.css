@@ -296,6 +296,11 @@ footer a:hover {
     .header-content h1, .welcome-content h2 {
        text-align: center;
     }
+
+    .personalised-cards {
+        width: 100%;
+        padding: 0;
+    }
 }
 
 @media (max-width: 400px ){
