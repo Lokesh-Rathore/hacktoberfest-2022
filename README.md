@@ -49,6 +49,6 @@ or simply meet us on [Discord](https://discord.gg/yE4HNmf9Ss)
 <br> 
 <br> 
 
-<img src="https://junior-developer-group.com/assets/images/website-images/logo-with-background.png" width="20%" ></img>  <br> 
+<img src="https://junior-developer-group.com/assets/logo-with-background.aefdea96.png" width="20%" ></img>  <br> 
 Good luck! 🤓 <br> 
 [Junior Developer Group](https://junior-developer-group.com/)
