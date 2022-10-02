@@ -256,3 +256,8 @@
   left: 62%;
   animation : smokeTwo 3s 4s linear infinite;
 }
+@media(max-width:305px){
+  .coffee-machine{
+    width: 80%;
+  }
+}
