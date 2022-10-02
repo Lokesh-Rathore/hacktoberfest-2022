@@ -60,7 +60,7 @@
     width: 50%;
     background-color: white;
     position: absolute;
-    margin-top: 1.55rem;
+    margin-top: 3rem;
     margin-left: 7rem;
     rotate: -40deg;
     display: flex;
@@ -132,5 +132,4 @@
     color: black;
     text-align: center;
     font-size: 40px;
-    top: 2rem;
 }
