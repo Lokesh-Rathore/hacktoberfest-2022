@@ -1,0 +1,258 @@
+.card-container {
+  background-color:#FFA4D0;
+  position: relative;
+}
+.coffee-machine{
+  width: 250px;
+  height: 330px;
+  /* background-color: black; */
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.coffee-header{
+  background-color : #ddcfcc;
+  width: 100%;
+  height: 80px;
+  border-radius: 10px;
+}
+.coffee-header__button{
+  width: 25px;
+  height: 25px;
+  background-color: #282323;
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  
+}
+.coffee-header__button::after{
+  content:'';
+  background-color: #615e5e;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  bottom: -8px;
+  left: calc(50% - 4px);
+  
+}
+.coffee-header__button__one{
+  left: 10%;
+}
+.coffee-header__button__two{
+  left: 22%;
+}
+
+.coffee-display{
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  border: 5px solid #43beae;
+  background-color:#9acfc5;
+  position: absolute;
+  top: 5%;
+  left: 40%; 
+}
+.coffee-header__details{
+  width: 8px;
+  height: 12px;
+  background-color:#9b9091;
+  position: absolute;
+  top:5%;
+  right:5%;
+  box-shadow:-12px 0 0 #9b9091, -24px 0 0 #9b9091;
+
+}
+
+.coffee-medium{
+  width: 90%;
+  height: 200px;
+  background-color:  #bcb0af;
+  position: absolute;
+  left:5%;
+}
+.coffee-medium__support{
+  width: 85%;
+  height: 100px;
+  background-color:  #9b9091;
+  position: absolute;
+  left:7%;
+  top:50%;
+  border-radius:20px 20px 0 0;
+}
+.coffee-medium__cup {
+  width: 80px;
+  height: 47px;
+  position: absolute;
+  left: 35%;
+  background-color: #FFF;
+  top:65%;
+  border-radius: 0 0 70px 70px / 0 0 110px 110px;
+}
+.coffee-medium__cup::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 6px;
+  right: -13px;
+  border: 5px solid #FFF;
+  border-radius: 50%;
+}
+
+.coffee-medium__platform{
+  width: 95%;
+  height: 20px;
+  background-color:  #43beae;
+  position: absolute;
+  left:3%;
+  top:80%;
+  border-radius:20px;
+}
+.coffee-medium__base{
+  width: 100%;
+  height: 25px;
+  background-color:black;
+  position: absolute;
+  top:85%;
+}
+.coffee-medium__arm{
+  width:70px;
+  height:15px;
+  background-color: black;
+  position: absolute;
+  top:30%;
+  left:60%;
+}
+.coffee-medium__stand{
+  width:60px;
+  height:20px;
+  background-color: black;
+  position: absolute;
+  left:40%;
+}
+.coffee-medium__pourer{
+  width:50px;
+  height:20px;
+  background-color: black;
+  position: absolute;
+  left:42%;
+  top:30%;
+  border-radius: 0 0 20px 20px;
+}
+.coffee-medium__nozzel{
+  width:15px;
+  height:10px;
+  background-color: black;
+  position: absolute;
+  top:35%;
+  left:50%;
+}
+@keyframes liquid{
+  0%{
+    height:0px;
+    opacity:1;
+  }
+  20%{
+    height:90px;
+    opacity:1;
+  }
+  95%{
+    height:90px;
+    opacity:1;
+  }
+  /* 100%{
+    height:90px;
+    opacity:1;
+  } */
+
+}
+.coffee-medium__drink{
+  width: 10px;
+  height: 4px;
+  position: absolute;
+  background-color: #74372b;
+  top:38%;
+  left:51%;
+  animation: liquid 4s 4s linear infinite
+}
+.coffee-medium__smoke{
+  width: 10px;
+  height:25px;
+  background-color:#b3aeae;
+  border-radius:10px;
+  position: absolute;
+  opacity:0;
+}
+.message{
+  position: absolute;
+  right:10%;
+  bottom:10%;
+  font-family: cursive;
+  color:purple;
+}
+
+
+
+
+@keyframes smokeOne{
+  0%{
+    top:55%;
+    opacity : 0;
+  }
+  40%{
+    top : 50%;
+    opacity:.5;
+  }
+  80%{
+    top : 45%;
+    opacity:.3;
+  }
+  100%{
+    top : 40%;
+    opacity:0;
+  }
+  
+}
+.coffee-medium__smoke__one{
+  position: absolute;
+  top: 57%;
+  left: 36%;
+  
+  animation : smokeOne 3s 4s linear infinite;
+}
+
+@keyframes smokeTwo{
+  0%{
+    top:60%;
+    opacity :0;
+  }
+  40%{
+    top : 55%;
+    opacity:.3;
+  }
+  80%{
+    top : 50%;
+    opacity:.5;
+  }
+  100%{
+    top : 45%;
+    opacity:0;
+  }
+  
+}
+.coffee-medium__smoke__two{
+  top: 57%;
+  left: 45%;
+  animation : smokeTwo 3s 4s linear infinite;
+}
+.coffee-medium__smoke__three{
+  
+  top: 57%;
+  left: 52%;
+  animation : smokeOne 3s 4s linear infinite;
+}
+.coffee-medium__smoke__four{
+  top: 57%;
+  left: 62%;
+  animation : smokeTwo 3s 4s linear infinite;
+}
