@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- SEO SETTINGS FOR GOOGLE-->
-    <meta name="author" content="HacktoberFest [2022] by Junior Developer Group" />
-    <meta name="description" content="Join our HacktoberFest 2022 challenge and create an object of your choice using only CSS" />
+    <meta
+      name="author"
+      content="HacktoberFest [2022] by Junior Developer Group"
+    />
+    <meta
+      name="description"
+      content="Join our HacktoberFest 2022 challenge and create an object of your choice using only CSS"
+    />
 
     <!-- SEO SETTINGS FOR WHEN WEBSITE URL IS SHARED -->
-    <meta name="og:title" property="og:title" content="HacktoberFest by Junior Developer Group" />
-    <meta property="og:description" content="Join our HacktoberFest 2022 challenge and create an object of your choice using only CSS." />
-    <meta property="og:image" content="/assets/images/logo-with-background.png" />
+    <meta
+      name="og:title"
+      property="og:title"
+      content="HacktoberFest by Junior Developer Group"
+    />
+    <meta
+      property="og:description"
+      content="Join our HacktoberFest 2022 challenge and create an object of your choice using only CSS."
+    />
+    <meta
+      property="og:image"
+      content="/assets/images/logo-with-background.png"
+    />
 
     <!-- WEBSITE TITLE-->
     <title>HacktoberFest by Junior Developer Group</title>
@@ -20,12 +35,18 @@
     <!-- FAVICON -->
     <link rel="icon" type="image/jpg" href="./assets/images/favicon.ico" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS STYLESHEET -->
     <link rel="stylesheet" href="main.css" />
@@ -37,278 +58,375 @@
     <link rel="stylesheet" href="./participant-stylesheets/jonnie-avatar.css" />
     <link rel="stylesheet" href="./participant-stylesheets/prouxx.css" />
     <link rel="stylesheet" href="./participant-stylesheets/amon.css" />
-</head>
+    <link rel="stylesheet" href="./participant-stylesheets/toy-house.css" />
+  </head>
 
-<body>
-
+  <body>
     <!-- ********************************************************* -->
     <!-- ********** ❌ DO NOT EDIT ❌ *************************** -->
     <!-- ********************************************************/ -->
 
     <section class="header-introduction">
-        <header class="header-content">
+      <header class="header-content">
+        <img
+          src="./assets/images/logo.png"
+          alt="Junior Developer Group | a butterfly with dotted wings"
+        />
 
-            <img src="./assets/images/logo.png" alt="Junior Developer Group | a butterfly with dotted wings">
+        <h1>HacktoberFest 2022</h1>
 
-            <h1> HacktoberFest 2022 </h1>
-
-            <span>by Junior Developer Group </span>
-        </header>
+        <span>by Junior Developer Group </span>
+      </header>
     </section>
 
     <section class="welcome-stranger">
+      <div class="welcome-content">
+        <h2>Hello World! 😊</h2>
 
-        <div class="welcome-content">
-            <h2> Hello World! 😊 </h2>
+        <p>
+          This page was set up as a simple front end challenge for
+          <a
+            href="https://hacktoberfest.digitalocean.com/"
+            target="_blank"
+            noreferer
+          >
+            HacktoberFest 2022 event.
+          </a>
+        </p>
 
-            <p>This page was set up as a simple front end challenge for
-                <a href="https://hacktoberfest.digitalocean.com/" target="_blank" noreferer>
-                    HacktoberFest 2022 event.
-                </a>
-            </p>
+        <p>
+          The goal is to populate one of the below listed cards with an object
+          you've created using only CSS, style it any way you'd like to and have
+          fun making it.
+        </p>
 
-            <p> The goal is to populate one of the below listed cards with an object you've created using only CSS, style it any way you'd like to and have fun making it. </p>
+        <p>
+          Before you start, please have a look at a couple of participation
+          rules we've set up. Not following the set rules might get your pull
+          request rejected.
+        </p>
 
-            <p>
-                Before you start, please have a look at a couple of participation rules we've set up. Not following the set rules might get your pull request rejected.
-            </p>
+        <div class="welcome-content__rules">
+          <details>
+            <summary class="summary">Won't Be Accepted:</summary>
 
-            <div class="welcome-content__rules">
-                <details>
-                    <summary class="summary">Won't Be Accepted: </summary>
+            <ul class="list">
+              <li>
+                You're not allowed to copy/paste other submissions and pass them
+                as yours.
+              </li>
+              <li>
+                You're not allowed to override existing CSS classes / other
+                contributor's work
+              </li>
+              <li>
+                You're not allowed to import additionsl libraries and frameworks
+              </li>
+              <li>
+                You're not allowed to use any flickering/rapidly changing
+                elements
+              </li>
+              <li>
+                You're not allowed to use any images to make up your characters
+              </li>
+            </ul>
+          </details>
 
-                    <ul class="list">
-                        <li>You're not allowed to copy/paste other submissions and pass them as yours. </li>
-                        <li> You're not allowed to override existing CSS classes / other contributor's work</li>
-                        <li> You're not allowed to import additionsl libraries and frameworks </li>
-                        <li> You're not allowed to use any flickering/rapidly changing elements </li>
-                        <li> You're not allowed to use any images to make up your characters</li>
-                    </ul>
-                </details>
+          <details>
+            <summary class="summary">Will Be Accepted:</summary>
 
-                <details>
-                    <summary class="summary">  Will Be Accepted: </summary>
-
-                    <ul class="list">
-                        <li>You are allowed to post personal links to your portfolios, projects or social media. </li>
-                        <li> You are allowed to use any spoken language to compliment your creations (e.g English, Spanish..) </li>
-
-                    </ul>
-                </details>
-            </div>
+            <ul class="list">
+              <li>
+                You are allowed to post personal links to your portfolios,
+                projects or social media.
+              </li>
+              <li>
+                You are allowed to use any spoken language to compliment your
+                creations (e.g English, Spanish..)
+              </li>
+            </ul>
+          </details>
         </div>
-
+      </div>
     </section>
 
     <section class="personalised-cards">
+      <!-- ********************************************************* -->
+      <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
+      <!-- ********************************************************/ -->
+      <div class="card likii">
+        <div class="likii-top"></div>
 
-        <!-- ********************************************************* -->
-        <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
-        <!-- ********************************************************/ -->
-        <div class="card likii">
-            <div class="likii-top"></div>
+        <div class="likii-bottom"></div>
+        <div class="likii-inner">
+          <div class="steam"></div>
+          <div class="cup">
+            <div class="cup-head">
+              <span class="cup-eyes">
+                <div class="eye-left"><div class="dot"></div></div>
+                <div class="eye-right"><div class="dot"></div></div>
+              </span>
 
-            <div class="likii-bottom"></div>
-            <div class="likii-inner">
-                <div class="steam"></div>
-               <div class="cup">
-                    <div class="cup-head">
-                        <span class="cup-eyes">
-                                <div class="eye-left"><div class="dot"> </div></div>
-                                <div class="eye-right"><div class="dot"> </div></div>
-                        </span>
-
-                        <div class="cup-nose"></div>
-
-                    </div>
-               </div>
-
-               <div class="likii-text">
-                <small> ...a hug in a mug</small>
-                <p> by Likii</p>
-               </div>
+              <div class="cup-nose"></div>
             </div>
+          </div>
 
+          <div class="likii-text">
+            <small> ...a hug in a mug</small>
+            <p>by Likii</p>
+          </div>
         </div>
+      </div>
 
-        <div class="card jonnie">
-            <div class="canva">
-                <div class="fish">
-                    <div class="body">
-                        <div class="eye"></div>
-                        <div class="fin-1"></div>
-                        <div class="fin-2"></div>
-                        <div class="fin-3"></div>
-                        <div class="fin-4"></div>
-                        <div class="tail"></div>
-                    </div>
-                    <div class="bubble">
-                        <div class="b-1"></div>
-                        <div class="b-2"></div>
-                    </div>
+      <div class="card jonnie">
+        <div class="canva">
+          <div class="fish">
+            <div class="body">
+              <div class="eye"></div>
+              <div class="fin-1"></div>
+              <div class="fin-2"></div>
+              <div class="fin-3"></div>
+              <div class="fin-4"></div>
+              <div class="tail"></div>
+            </div>
+            <div class="bubble">
+              <div class="b-1"></div>
+              <div class="b-2"></div>
+            </div>
+          </div>
+        </div>
+        <p class="attribute">'made with ❤️ by Jonnie'</p>
+      </div>
+
+      <!-- ********************************************************* -->
+      <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
+      <!-- ********************************************************/ -->
+      <div class="card">
+        <div class="card-prouxx">
+          <div class="card-prouxx-container">
+            <div class="prouxx-body"></div>
+            <div class="pr-foot-right"></div>
+            <div class="pr-foot-left"></div>
+            <div class="pr-hand-right"></div>
+            <div class="pr-back"></div>
+            <div class="pr-hand-left"></div>
+            <div class="pr-hand-left-cover"></div>
+            <div class="pr-ear-left-outer"></div>
+            <div class="pr-ear-left-outer-cover"></div>
+            <div class="pr-ear-left-inner"></div>
+            <div class="pr-ear-left-inner-cover"></div>
+            <div class="pr-eye-left-1"></div>
+            <div class="pr-eye-left-2"></div>
+            <div class="pr-eye-left-3"></div>
+            <div class="pr-eye-left-4"></div>
+            <div class="pr-eye-right-1"></div>
+            <div class="pr-eye-right-2"></div>
+            <div class="pr-eye-right-3"></div>
+            <div class="pr-eye-right-4"></div>
+            <div class="pr-mouth-1"></div>
+            <div class="pr-mouth-2"></div>
+            <div class="pr-mouth-1a"></div>
+            <div class="pr-ear-right-outer"></div>
+            <div class="pr-ear-right-inner"></div>
+            <div class="pr-hair-1"></div>
+            <div class="pr-hair-2"></div>
+            <div class="pr-hair-3"></div>
+            <div class="pr-hair-4"></div>
+            <div class="pr-body-cover"></div>
+            <div class="signature">Jigglypuff by Prouxx</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ********************************************************* -->
+      <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
+      <!-- ********************************************************/ -->
+      <div class="card">
+        <div class="container">
+          <div class="roof">
+            <span class="roof-sheet roof-sheet-left"></span>
+            <span class="roof-sheet roof-sheet-right"></span>
+          </div>
+          <div class="triangle"></div>
+          <div class="house-body">
+            <div class="windows-top windows-container">
+              <div class="window">
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+              </div>
+              <div class="window center-window">
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+              </div>
+              <div class="window">
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+              </div>
+            </div>
+            <div class="windows-container">
+              <div class="window">
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+              </div>
+              <div class="window center-window">
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+              </div>
+              <div class="window">
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+              </div>
+            </div>
+            <div class="windows-and-door windows-container">
+              <div class="window">
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+              </div>
+              <div class="door">
+                <span class="door-handle"></span>
+              </div>
+              <div class="window">
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+                <span class="window-glass"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ********************************************************* -->
+      <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
+      <!-- ********************************************************/ -->
+
+      <div class="card amon-card">
+        <div class="pikachu">
+          <div class="pikachu__head">
+            <div class="pikachu__head-inner">
+              <div class="pikachu__eyes">
+                <div class="pikachu__eye"></div>
+                <div class="pikachu__eye"></div>
+              </div>
+              <div class="pikachu__nose"></div>
+              <div class="pikachu__mouth">
+                <div class="pikachu__mouth-inner">
+                  <div class="pikachu__tongue"></div>
                 </div>
+              </div>
+              <div class="pikachu__cheeks">
+                <div class="pikachu__cheek"></div>
+                <div class="pikachu__cheek"></div>
+              </div>
             </div>
-            <p class="attribute">'made with ❤️ by Jonnie'</p>
+            <div class="pikachu__ears">
+              <div class="pikachu__ear"></div>
+              <div class="pikachu__ear"></div>
+            </div>
         </div>
-
-        <!-- ********************************************************* -->
-        <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
-        <!-- ********************************************************/ -->
-        <div class="card">
-            <div class="card-prouxx">
-                <div class="card-prouxx-container">
-                    <div class="prouxx-body"></div>
-                    <div class="pr-foot-right"></div>
-                    <div class="pr-foot-left"></div>
-                    <div class="pr-hand-right"></div>
-                    <div class="pr-back"></div>
-                    <div class="pr-hand-left"></div>
-                    <div class="pr-hand-left-cover"></div>
-                    <div class="pr-ear-left-outer"></div>
-                    <div class="pr-ear-left-outer-cover"></div>
-                    <div class="pr-ear-left-inner"></div>
-                    <div class="pr-ear-left-inner-cover"></div>
-                    <div class="pr-eye-left-1"></div>
-                    <div class="pr-eye-left-2"></div>
-                    <div class="pr-eye-left-3"></div>
-                    <div class="pr-eye-left-4"></div>
-                    <div class="pr-eye-right-1"></div>
-                    <div class="pr-eye-right-2"></div>
-                    <div class="pr-eye-right-3"></div>
-                    <div class="pr-eye-right-4"></div>
-                    <div class="pr-mouth-1"></div>
-                    <div class="pr-mouth-2"></div>
-                    <div class="pr-mouth-1a"></div>
-                    <div class="pr-ear-right-outer"></div>
-                    <div class="pr-ear-right-inner"></div>
-                    <div class="pr-hair-1"></div>
-                    <div class="pr-hair-2"></div>
-                    <div class="pr-hair-3"></div>
-                    <div class="pr-hair-4"></div>
-                    <div class="pr-body-cover"></div>
-                    <div class="signature">Jigglypuff by Prouxx</div>
+        <div class="pikachu__body">
+            <div class="pikachu__body-inner">
+              <div class="pikachu__arms">
+                <div class="pikachu__arm">
                 </div>
-                
+                <div class="pikachu__arm"></div>
+              </div>
             </div>
+            <div class="pikachu__legs">
+              <div class="pikachu__leg"></div>
+              <div class="pikachu__leg"></div>
+            </div>
+          </div>
         </div>
+        <a class="pikachu__btn pikachu__btn-linkedin" href="https://www.linkedin.com/in/wing-kuang-tan-933bb6226/">Let's connect</a>
+        <a class="pikachu__btn pikachu__btn-github" href="https://github.com/A-amon">View projects</a>
+      </div>
+      <!-- ********************************************************* -->
+      <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
+      <!-- ********************************************************/ -->
+      <div class="card">
+        <div class="question-mark"></div>
+      </div>
 
-        <div class="card amon-card">
-            <div class="pikachu">
-				<div class="pikachu__head">
-					<div class="pikachu__head-inner">
-						<div class="pikachu__eyes">
-							<div class="pikachu__eye"></div>
-							<div class="pikachu__eye"></div>
-						</div>
-						<div class="pikachu__nose"></div>
-						<div class="pikachu__mouth">
-							<div class="pikachu__mouth-inner">
-								<div class="pikachu__tongue"></div>
-							</div>
-						</div>
-						<div class="pikachu__cheeks">
-							<div class="pikachu__cheek"></div>
-							<div class="pikachu__cheek"></div>
-						</div>
-					</div>
-					<div class="pikachu__ears">
-						<div class="pikachu__ear"></div>
-						<div class="pikachu__ear"></div>
-					</div>
-				</div>
-				<div class="pikachu__body">
-					<div class="pikachu__body-inner">
-						<div class="pikachu__arms">
-							<div class="pikachu__arm">
-							</div>
-							<div class="pikachu__arm"></div>
-						</div>
-					</div>
-					<div class="pikachu__legs">
-						<div class="pikachu__leg"></div>
-						<div class="pikachu__leg"></div>
-					</div>
-				</div>
-			</div>
-			<a class="pikachu__btn pikachu__btn-linkedin" href="https://www.linkedin.com/in/wing-kuang-tan-933bb6226/">Let's connect</a>
-			<a class="pikachu__btn pikachu__btn-github" href="https://github.com/A-amon">View projects</a>
-        </div>
-        <!-- ********************************************************* -->
-        <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
-        <!-- ********************************************************/ -->
-        <div class="card">
-            <div class="question-mark"></div>
-        </div>
+      <!-- ********************************************************* -->
+      <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
+      <!-- ********************************************************/ -->
+      <div class="card">
+        <div class="question-mark"></div>
+      </div>
 
-        <!-- ********************************************************* -->
-        <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
-        <!-- ********************************************************/ -->
-        <div class="card">
-            <div class="question-mark"></div>
-        </div>
+      <!-- ********************************************************* -->
+      <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
+      <!-- ********************************************************/ -->
+      <div class="card">
+        <div class="question-mark"></div>
+      </div>
 
-        <!-- ********************************************************* -->
-        <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
-        <!-- ********************************************************/ -->
-        <div class="card">
-            <div class="question-mark"></div>
-        </div>
+      <!-- ********************************************************* -->
+      <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
+      <!-- ********************************************************/ -->
+      <div class="card">
+        <div class="question-mark"></div>
+      </div>
 
-        <!-- ********************************************************* -->
-        <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
-        <!-- ********************************************************/ -->
-        <div class="card">
-            <div class="question-mark"></div>
-        </div>
+      <!-- ********************************************************* -->
+      <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
+      <!-- ********************************************************/ -->
+      <div class="card">
+        <div class="question-mark"></div>
+      </div>
 
-        <!-- ********************************************************* -->
-        <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
-        <!-- ********************************************************/ -->
-        <div class="card">
-            <div class="question-mark"></div>
-        </div>
+      <!-- ********************************************************* -->
+      <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
+      <!-- ********************************************************/ -->
+      <div class="card">
+        <div class="question-mark"></div>
+      </div>
 
-        <!-- ********************************************************* -->
-        <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
-        <!-- ********************************************************/ -->
-        <div class="card">
-            <div class="question-mark"></div>
-        </div>
+      <!-- ********************************************************* -->
+      <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
+      <!-- ********************************************************/ -->
+      <div class="card">
+        <div class="question-mark"></div>
+      </div>
 
-        <!-- ********************************************************* -->
-        <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
-        <!-- ********************************************************/ -->
-        <div class="card">
-            <div class="question-mark"></div>
-        </div>
-
-        <!-- ********************************************************* -->
-        <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
-        <!-- ********************************************************/ -->
-        <div class="card">
-            <div class="question-mark"></div>
-        </div>
-        <!-- ********************************************************* -->
-        <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
-        <!-- ********************************************************/ -->
-        <div class="card">
-            <div class="question-mark"></div>
-        </div>
+      <!-- ********************************************************* -->
+      <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
+      <!-- ********************************************************/ -->
+      <div class="card">
+        <div class="question-mark"></div>
+      </div>
+      <!-- ********************************************************* -->
+      <!-- **********   ✔️  EDIT  HERE ✔️ *************************** -->
+      <!-- ********************************************************/ -->
+      <div class="card">
+        <div class="question-mark"></div>
+      </div>
     </section>
 
-
-    
     <footer>
-        <div class="footer-content">
-            <p> Want to participate in future group projects? 👇 </p>              
-            <a href="https://junior-developer-group.com/" target="_blank">  junior-developer-group.com <i class="fa fa-external-link" aria-hidden="true"></i> </a>
-        </div>
-   </footer>
+      <div class="footer-content">
+        <p>Want to participate in future group projects? 👇</p>
+        <a href="https://junior-developer-group.com/" target="_blank">
+          junior-developer-group.com
+          <i class="fa fa-external-link" aria-hidden="true"></i>
+        </a>
+      </div>
+    </footer>
 
     <!-- Scripts -->
-    <script src="https://kit.fontawesome.com/1617ca5d0a.js" crossorigin="anonymous"></script>
-
-</body>
-
-
+    <script
+      src="https://kit.fontawesome.com/1617ca5d0a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
