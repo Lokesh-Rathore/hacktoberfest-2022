@@ -18,11 +18,13 @@
 .amon-card{
 	background-color: var(--pikachu-blue);
 	gap:10px;
+	overflow: hidden;
 }
 
 .pikachu{
 	position: relative;
 	z-index:1;
+	transform:scale(0.8);
 }
 
 .pikachu__head{
