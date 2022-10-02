@@ -103,7 +103,7 @@
     
     border-radius: 50%;
     position: relative;
-    left: -45px;
+    left: 2px;
     top: -90px;
     animation: bubble2 4s ease-in infinite;
 }
@@ -115,8 +115,8 @@
     border: 2px solid #f1f5f6;
     border-radius: 50%;
     position: absolute;
-    left: -30px;
-    top: 10px;
+    left: 9px;
+    top: 93px;
     animation: bubble1 8s ease-in infinite;
 }
 
