@@ -1,0 +1,152 @@
+/*************** Css Art - Toy House *******************/
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgb(146, 216, 243) 65%, rgb(1, 133, 1) 35%);
+  justify-content: center;
+}
+.roof {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 20px;
+  top: -0.3rem;
+}
+.roof-sheet {
+  position: relative;
+  width: 9.6rem;
+  height: 0.4rem;
+  background-color: #a52a2a;
+  z-index: 1;
+}
+.roof-sheet-left {
+  position: absolute;
+  left: 0.4rem;
+  transform: rotate(-27deg);
+}
+
+.roof-sheet-right {
+  position: absolute;
+  right: 0.4rem;
+  transform: rotate(27deg);
+}
+.triangle {
+  position: absolute;
+  top: 4.3rem;
+  width: 0;
+  height: 0;
+  border: 7rem solid transparent;
+  border-top: 0;
+  border-bottom: 3.5rem solid #ffe4c4;
+}
+
+.house-body {
+  position: relative;
+  width: 14rem;
+  aspect-ratio: 1;
+  background-color: #ffe4c4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-right: 0.25rem dashed #a52a2a;
+  border-left: 0.25rem dashed #a52a2a;
+}
+
+.house-body::before {
+  content: 'home';
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-top: 1px solid #094764;
+  border-bottom: 1px solid #094764;
+  top: -1.5rem;
+  color: #a52a2a;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.windows-container {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  height: auto;
+}
+.windows-top {
+  margin-top: 1.3rem;
+}
+.windows-and-door {
+  align-items: center;
+}
+
+.window {
+  width: 1rem;
+  height: 1.5rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  border: 0.35rem double #a52a2a;
+}
+.window-glass {
+  background-color: rgb(25, 62, 63);
+  border: 0.01rem solid #ffe4c4;
+}
+.center-window {
+  width: 3rem;
+}
+.door {
+  width: 1.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+  background-color: rgb(46, 80, 82);
+  border: 0.3rem solid #a52a2a;
+  border-bottom: none;
+}
+
+.door-handle {
+  width: 0.3rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #ffe4c4;
+}
+
+@media (max-width: 380px) {
+  .roof-sheet {
+    top: -0.4rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .roof-sheet {
+    width: 7.9rem;
+    top: -0.3rem;
+  }
+  .roof-sheet-left {
+    position: absolute;
+    left: 0;
+    transform: rotate(-27deg);
+  }
+
+  .roof-sheet-right {
+    position: absolute;
+    right: 0;
+    transform: rotate(27deg);
+  }
+  .house-body {
+    width: 12rem;
+  }
+  .triangle {
+    top: 5.8rem;
+    border: 6.2rem solid transparent;
+    border-top: 0;
+    border-bottom: 3rem solid #ffe4c4;
+  }
+}
