@@ -67,6 +67,7 @@
     justify-content: center;
     align-items: center;
 
+
 }
 
 .r-pupil {
@@ -89,6 +90,7 @@
     margin-top: 8rem;
     rotate: 180deg;
     margin-left: 2rem;
+    top:150px;
 }
 
 .l-tooth {
