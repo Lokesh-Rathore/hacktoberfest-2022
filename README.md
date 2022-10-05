@@ -1,54 +1,23 @@
-## 👇 Junior Developer Group: 2022 Hacktoberfest challenge  👇
-<br> 
-<br> 
+##  👇 ANNOUNCEMENT  👇
+(Tuesday 04th of October 2022)
 
+We've noticed  our repository has been excluded from HacktoberFest with no further explanation and as a group, mainly focused on building open-source projects, we feel very disappointed and dishearted by this decision. 
 
-## ✨  About this year's challenge: ✨
+Our 2022 challenge was fun to create, it empowered developers of all levels to participate in this year's event, allowed us to learn from others and practice our CSS skills as well as it brought joy while seeing all fantastic submissions.
 
-This year's theme will be CSS Art and we're hoping to see many great submissions and creative solutions. <br>
-Your task is to populate a card (your creative space) with any CSS Art you'd like to showcase. <br>
+This repository hasn't been made in the the way that it goes against HacktoberFest values, in fact, we feel it celebrated HacktoberFest in its fullest. Everyone, with junior or senior skillsets, was able to participate and be a part of something global. Our intention was to have fun, create something nice and have fun while doing so, however, HacktoberFest staff decided to exlude the repository and that means all contributions to it were marked as invalid.
 
-Your submission can be anything you want it to be, from fruits and veg to mythical creatures 🐲. <br>
-As long as its been coded by yourself and is not breaking any other contributions - it will get merged in.  
+Over the years this event has become a tradition for us and many of us have been looking forward to it, working hard on maintaining the repository as well as creating new contributions and its why this decision doesn't feel right for us. 
 
-<br> 
-<br> 
+As of now we won't be accepting any PRs coming our way as a part of HacktoberFest event, altough in the future we might update the text on the website and continue building our project in the way we intented it to be. 
 
-## 🎯 Content Rules | Forbidden
+Once again, a big thank you goes out to all that have participated this year - it has been great seeing all your contributions, reviewing your code and interacting with you on our Discord.
 
-1. You're not allowed to copy/paste other submissions and pass them as yours.
-2. You're not allowed to override existing CSS classes / other contributor's work.
-3. You're not allowed to import additional libraries and frameworks.
-4. You're not allowed to use any flickering/rapidly changing elements
-5. You're not allowed to use any images to make up your characters
-
-
-## 🎯 Content Rules | Permitted
-1. You are allowed to post personal links to your portfolios, projects or social media.
-2. You are allowed to use any spoken language to compliment your creations (e.g English, Spanish..).
-
-<br> 
-<br> 
-<br> 
-
-# 👇 How to contribute to open source projects? 👇
-- You need to fork the repository first
-- Then you need to clone the repository to your machine
-- After that, you need to create a new branch [ you can name it the same as your username ]
-- Then start writing your code inside of your branch (not inside of 'main')
-- When you're happy with it, you need to send a commit and leave a commit message for clarity
-- Lastly, you need to create a Pull Request, tag yourself as an 'assignee' and wait for it to be merged if it passes Team's review
-<br> 
-<br> 
-<br> 
-
-## 🙌 We hope you enjoy the challenge 🙌
 
 If you'd like to join us on our future projects, make sure to visit our [website](https://junior-developer-group.com/) for more info,
 or simply meet us on [Discord](https://discord.gg/yE4HNmf9Ss) 
 <br> 
 <br> 
 
-<img src="https://junior-developer-group.com/assets/logo-with-background.aefdea96.png" width="20%" ></img>  <br> 
-Good luck! 🤓 <br> 
+<img src="https://junior-developer-group.com/assets/logo-with-background.aefdea96.png" width="20%" ></img>  <br>  <br> 
 [Junior Developer Group](https://junior-developer-group.com/)
